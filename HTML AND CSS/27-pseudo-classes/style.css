@@ -1,0 +1,42 @@
+/* Pseudo-classes - Styles */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+a {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 20px;
+    background-color: #e0e0e0;
+    text-decoration: none;
+    color: black;
+    border-radius: 5px;
+}
+
+a:hover {
+    background-color: #4CAF50;
+    color: white;
+}
+
+a:active {
+    background-color: #333;
+    color: white;
+}
+
+a:visited {
+    color: #666;
+}
+
+li:first-child {
+    color: red;
+}
+
+li:last-child {
+    color: blue;
+}
+
+li:nth-child(2) {
+    color: green;
+}

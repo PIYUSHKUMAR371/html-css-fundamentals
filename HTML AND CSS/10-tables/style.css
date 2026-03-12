@@ -1,0 +1,66 @@
+/* ===== TABLES - DISPLAYING DATA ===== */
+/* Tables are perfect for showing structured data (rows & columns) */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+/* TABLE element styling */
+table {
+    /* border-collapse: collapse; - removes spaces between cell borders */
+    border-collapse: collapse;
+    
+    /* width: 100%; - table takes full width of container */
+    width: 100%;
+    
+    margin: 20px 0;
+}
+
+/* TH = Table Header cells, TD = Table Data cells */
+/* Style both with one rule using comma */
+th, td {
+    /* border: 1px solid #ddd; - adds grid lines around cells */
+    border: 1px solid #ddd;
+    
+    /* padding: 12px; - space INSIDE cells */
+    padding: 12px;
+    
+    /* text-align: left; - aligns text to left side of cell */
+    text-align: left;
+}
+
+/* TH = Table Header (usually first row with titles) */
+th {
+    /* background-color: creates colored header background */
+    background-color: #4CAF50;  /* green background */
+    
+    color: white;               /* white text */
+}
+
+/* TR = Table Row - hover effect (light gray when user hovers) */
+/* :hover runs when user moves mouse over an element */
+tr:hover {
+    background-color: #f5f5f5;  /* very light gray */
+}
+
+/* TABLE HTML STRUCTURE (for reference): */
+/* <table>
+    <tr>                    (Table Row 1 = Header)
+        <th>Column 1</th>    (Table Header cell)
+        <th>Column 2</th>
+        <th>Column 3</th>
+    </tr>
+    
+    <tr>                    (Table Row 2 = Data)
+        <td>Data 1</td>      (Table Data cell)
+        <td>Data 2</td>
+        <td>Data 3</td>
+    </tr>
+    
+    <tr>                    (Table Row 3 = Data)
+        <td>Data 1</td>
+        <td>Data 2</td>
+        <td>Data 3</td>
+    </tr>
+</table> */

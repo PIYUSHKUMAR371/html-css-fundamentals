@@ -1,0 +1,54 @@
+/* ===== BORDERS ===== */
+/* Borders create visible edges around HTML elements */
+/* Format: border: WIDTH STYLE COLOR; */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+div {
+    padding: 20px;              /* space inside */
+    margin: 20px 0;             /* space outside (above/below) */
+    width: 200px;               /* width of box */
+}
+
+/* BORDER STYLE OPTIONS: solid, dashed, dotted, double, groove, ridge, inset, outset */
+
+/* SOLID BORDER - continuous line */
+.border-solid {
+    /* Format: border: WIDTH STYLE COLOR; */
+    border: 2px solid black;  /* 2 pixels wide, solid style, black color */
+}
+
+/* DASHED BORDER - dashes/hyphens */
+.border-dashed {
+    border: 2px dashed blue;  /* 2 pixels, dashed style, blue color */
+}
+
+/* DOTTED BORDER - small dots */
+.border-dotted {
+    border: 2px dotted red;   /* 2 pixels, dotted style, red color */
+}
+
+/* DOUBLE BORDER - two lines */
+.border-double {
+    border: 4px double green;  /* 4 pixels (need more thickness), double lines, green */
+}
+
+/* ROUNDED CORNERS - soft edges */
+.border-rounded {
+    border: 2px solid orange;
+    border-radius: 10px;  /* 10px rounded corners (larger = rounder) */
+    /* TIP: border-radius: 50%; creates a perfect circle! */
+}
+
+/* BORDER SHORTHAND - set different sides:
+   border-top, border-right, border-bottom, border-left */
+/* Example: border-left: 5px solid red;  (only left side) */
+
+/* BORDER COLORS - use same as background colors:
+   - color names: red, blue, green
+   - hex colors: #FF0000
+   - rgb colors: rgb(255,0,0)
+   - rgba colors: rgba(255,0,0,0.5) */

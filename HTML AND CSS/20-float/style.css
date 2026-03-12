@@ -1,0 +1,32 @@
+/* Float - Styles */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+.float-left {
+    float: left;
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px;
+    margin-right: 10px;
+    border-radius: 5px;
+    width: 150px;
+    text-align: center;
+}
+
+.float-right {
+    float: right;
+    background-color: #2196F3;
+    color: white;
+    padding: 20px;
+    margin-left: 10px;
+    border-radius: 5px;
+    width: 150px;
+    text-align: center;
+}
+
+p {
+    line-height: 1.6;
+}

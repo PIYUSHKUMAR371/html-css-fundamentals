@@ -1,0 +1,52 @@
+/* Positions - Styles */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+.relative-parent {
+    position: relative;
+    width: 400px;
+    height: 300px;
+    border: 2px solid #333;
+    background-color: #f0f0f0;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+    color: white;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+.static {
+    position: static;
+    background-color: #4CAF50;
+}
+
+.relative {
+    position: relative;
+    background-color: #2196F3;
+    left: 50px;
+    top: 20px;
+}
+
+.absolute {
+    position: absolute;
+    background-color: #FF9800;
+    right: 20px;
+    bottom: 20px;
+}
+
+.fixed {
+    position: fixed;
+    background-color: #f44336;
+    right: 20px;
+    bottom: 20px;
+}

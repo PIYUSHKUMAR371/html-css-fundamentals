@@ -1,0 +1,11 @@
+/* Audio - Styles */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+audio {
+    width: 100%;
+    max-width: 500px;
+}

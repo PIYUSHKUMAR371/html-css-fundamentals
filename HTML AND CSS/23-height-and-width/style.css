@@ -1,0 +1,38 @@
+/* Height and Width - Styles */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+div {
+    background-color: #e0e0e0;
+    border: 1px solid #333;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+.width-fixed {
+    width: 300px;
+    height: auto;
+}
+
+.width-percent {
+    width: 50%;
+    height: auto;
+}
+
+.height-fixed {
+    width: auto;
+    height: 100px;
+    display: flex;
+    align-items: center;
+}
+
+.both {
+    width: 300px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

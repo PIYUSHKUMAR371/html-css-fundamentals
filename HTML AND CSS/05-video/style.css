@@ -1,0 +1,11 @@
+/* Video - Styles */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+video {
+    max-width: 100%;
+    height: auto;
+}

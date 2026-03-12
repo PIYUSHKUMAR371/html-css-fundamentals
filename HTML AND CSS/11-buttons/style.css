@@ -1,0 +1,52 @@
+/* ===== BUTTON STYLING ===== */
+/* Buttons respond to user clicks. We can make them look and feel better! */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+/* BASE BUTTON - default styling for ALL buttons */
+button {
+    padding: 10px 20px;              /* 10px up/down, 20px left/right */
+    margin: 10px;                    /* space between buttons */
+    font-size: 16px;                 /* text size */
+    cursor: pointer;                 /* change mouse to "hand" when hovering */
+    border: none;                    /* remove default browser border */
+    border-radius: 5px;              /* rounded corners */
+    background-color: #008CBA;       /* blue background */
+    color: white;                    /* white text */
+    
+    /* TRANSITION: smooth color change when hovering (takes 0.3 seconds) */
+    transition: background-color 0.3s;  /* animate color changes */
+}
+
+/* HOVER STATE - what happens when user hovers mouse over button */
+button:hover {
+    background-color: #007399;  /* darker blue when hovering */
+    /* Notice it changes smoothly because of transition property! */
+}
+
+/* PRIMARY BUTTON - main action button (green) */
+button.primary {
+    background-color: #4CAF50;  /* green */
+}
+
+button.primary:hover {
+    background-color: #45a049;  /* darker green on hover */
+}
+
+/* SECONDARY BUTTON - less important action (red) */
+button.secondary {
+    background-color: #f44336;  /* red */
+}
+
+button.secondary:hover {
+    background-color: #da190b;  /* darker red on hover */
+}
+
+/* BUTTON STATES YOU CAN ADD: */
+/* button:active       - while user is clicking it */
+/* button:disabled     - when button can't be clicked */
+/* button:focus        - when button has keyboard focus */
+/* button:active { transform: scale(0.98); } - squeeze button when clicked */

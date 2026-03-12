@@ -1,0 +1,29 @@
+/* Pseudo-elements - Styles */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+.before-element::before {
+    content: "► ";
+    color: red;
+    font-weight: bold;
+}
+
+.after-element::after {
+    content: " ◄";
+    color: blue;
+    font-weight: bold;
+}
+
+.first-letter::first-letter {
+    font-size: 24px;
+    color: green;
+    font-weight: bold;
+}
+
+.first-line::first-line {
+    color: purple;
+    font-weight: bold;
+}

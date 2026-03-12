@@ -1,0 +1,37 @@
+/* Fonts - Styles */
+
+body {
+    margin: 20px;
+}
+
+.serif {
+    font-family: 'Georgia', serif;
+    font-size: 18px;
+}
+
+.sans-serif {
+    font-family: 'Arial', sans-serif;
+    font-size: 18px;
+}
+
+.monospace {
+    font-family: 'Courier New', monospace;
+    font-size: 18px;
+}
+
+.google-font {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+}
+
+.large {
+    font-size: 28px;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.bold {
+    font-weight: bold;
+}

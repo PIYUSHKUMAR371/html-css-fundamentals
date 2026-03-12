@@ -1,0 +1,38 @@
+/* Transformations - Styles */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+.box {
+    width: 150px;
+    height: 150px;
+    margin: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.rotate {
+    background-color: #4CAF50;
+    transform: rotate(45deg);
+}
+
+.scale {
+    background-color: #2196F3;
+    transform: scale(1.5);
+}
+
+.translate {
+    background-color: #FF9800;
+    transform: translateX(50px) translateY(20px);
+}
+
+.skew {
+    background-color: #f44336;
+    transform: skew(20deg, 10deg);
+}

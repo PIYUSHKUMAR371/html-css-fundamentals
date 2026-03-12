@@ -1,0 +1,15 @@
+/* Lists - Styles */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+ul, ol {
+    margin: 20px 0;
+    padding-left: 30px;
+}
+
+li {
+    margin-bottom: 10px;
+}

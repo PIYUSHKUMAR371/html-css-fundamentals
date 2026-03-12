@@ -1,0 +1,61 @@
+/* Animations - Styles */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 40px;
+}
+
+div {
+    width: 150px;
+    height: 150px;
+    margin: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.spin {
+    background-color: #4CAF50;
+    animation: spin 2s linear infinite;
+}
+
+.slide {
+    background-color: #2196F3;
+    animation: slide 2s ease-in-out infinite;
+}
+
+.fade {
+    background-color: #FF9800;
+    animation: fade 2s ease-in-out infinite;
+}
+
+.bounce {
+    background-color: #f44336;
+    animation: bounce 1s ease-in-out infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+@keyframes slide {
+    0% { transform: translateX(0); }
+    50% { transform: translateX(100px); }
+    100% { transform: translateX(0); }
+}
+
+@keyframes fade {
+    0% { opacity: 1; }
+    50% { opacity: 0.3; }
+    100% { opacity: 1; }
+}
+
+@keyframes bounce {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-30px); }
+}

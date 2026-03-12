@@ -1,0 +1,35 @@
+/* Overflow - Styles */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+div {
+    width: 200px;
+    height: 100px;
+    margin: 20px 0;
+    padding: 10px;
+    border: 2px solid #333;
+    background-color: #f0f0f0;
+}
+
+.overflow-visible {
+    overflow: visible;
+    background-color: #ffcccc;
+}
+
+.overflow-hidden {
+    overflow: hidden;
+    background-color: #ccffcc;
+}
+
+.overflow-scroll {
+    overflow: scroll;
+    background-color: #ccccff;
+}
+
+.overflow-auto {
+    overflow: auto;
+    background-color: #ffffcc;
+}

@@ -1,0 +1,32 @@
+/* Shadows - Styles */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+.box-shadow {
+    width: 200px;
+    padding: 20px;
+    background-color: #f0f0f0;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    margin: 20px 0;
+}
+
+.text-shadow {
+    font-size: 24px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    margin: 20px 0;
+}
+
+.shadow-hover {
+    width: 200px;
+    padding: 20px;
+    background-color: #e0e0e0;
+    margin: 20px 0;
+    transition: box-shadow 0.3s;
+}
+
+.shadow-hover:hover {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}

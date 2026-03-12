@@ -1,0 +1,23 @@
+/* Icons - Styles */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+.icons {
+    display: flex;
+    gap: 30px;
+    font-size: 48px;
+    margin-top: 20px;
+}
+
+.icons i {
+    color: #4CAF50;
+    transition: color 0.3s, transform 0.3s;
+}
+
+.icons i:hover {
+    color: #2196F3;
+    transform: scale(1.2);
+}

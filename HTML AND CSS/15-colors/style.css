@@ -1,0 +1,69 @@
+/* ===== COLORS IN CSS ===== */
+/* There are 4 main ways to define colors in CSS */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+.color-box {
+    width: 200px;           /* width of box */
+    padding: 20px;          /* space inside the box */
+    margin: 10px 0;         /* space outside (above/below) */
+    color: white;           /* text color */
+    border-radius: 5px;     /* rounded corners */
+    text-align: center;     /* center the text */
+    font-weight: bold;      /* make text bold */
+}
+
+/* METHOD 1: COLOR NAMES (easy but limited) */
+.red {
+    background-color: red;  /* Named color - simple but only ~140 colors available */
+}
+
+.green {
+    background-color: green;  /* Green */
+}
+
+.blue {
+    background-color: blue;  /* Blue */
+}
+
+
+/* METHOD 2: HEX COLORS (most popular)
+   Hex = hexadecimal (base 16)
+   Format: #RRGGBB
+   RR = Red (00-FF), GG = Green (00-FF), BB = Blue (00-FF)
+   #000000 = black, #FFFFFF = white, #FF0000 = pure red */
+.hex {
+    background-color: #FF5733;  /* Orange-ish (high red, medium green, low blue) */
+}
+
+
+/* METHOD 3: RGB COLORS
+   Format: rgb(red, green, blue)
+   Each value: 0-255 (0 = none, 255 = full)
+   rgb(255, 0, 0) = red, rgb(0, 255, 0) = green, rgb(0, 0, 255) = blue */
+.rgb {
+    background-color: rgb(100, 150, 200);  /* Light blue */
+}
+
+
+/* METHOD 4: RGBA COLORS
+   Same as RGB but adds ALPHA (transparency)
+   Format: rgba(red, green, blue, alpha)
+   Alpha: 0 = completely transparent, 1 = completely solid
+   0.5 = 50% transparent */
+.rgba {
+    background-color: rgba(255, 100, 100, 0.5);  /* Pink with 50% transparency */
+}
+
+
+/* COLOR PICKER TOOLS: -->
+/* Google "color picker" or find at: https://www.colorpicker.com/ */
+/* These tools help you find hex/RGB values visually! */
+
+/* COMMON COLOR CODES: */
+/* #FF0000 = Red, #00FF00 = Green, #0000FF = Blue */
+/* #FFFF00 = Yellow, #FF00FF = Magenta, #00FFFF = Cyan */
+/* #000000 = Black, #FFFFFF = White, #808080 = Gray */

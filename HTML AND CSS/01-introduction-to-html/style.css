@@ -1,0 +1,31 @@
+/* ===== INTRODUCTION TO CSS ===== */
+/* CSS (Cascading Style Sheets) is used to style HTML elements */
+/* Think of HTML as the skeleton, CSS is the makeup! */
+
+/* Selector: body - this targets all content in <body> */
+body {
+    /* font-family: which font to use (Arial is safe, works on all computers) */
+    font-family: Arial, sans-serif;
+    
+    /* margin: empty space OUTSIDE the element (20px on all sides) */
+    margin: 20px;
+    
+    /* TIP: Try changing or adding:
+       - background-color: #f0f0f0; (light gray background)
+       - line-height: 1.6; (space between lines)
+       - color: #333; (text color)
+    */
+}
+
+/* Selector: h1 - this targets all <h1> headings */
+h1 {
+    /* color: changes text color */
+    /* #333 is a dark gray color (hex color code) */
+    color: #333;
+    
+    /* TIP: Try adding:
+       - border-bottom: 2px solid #4CAF50; (line under heading)
+       - padding: 10px; (space inside the heading)
+       - text-align: center; (center the text)
+    */
+}

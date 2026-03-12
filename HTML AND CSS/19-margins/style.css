@@ -1,0 +1,53 @@
+/* ===== MARGINS & THE BOX MODEL ===== */
+/* Every HTML element is a "box" with 4 layers (outside to inside):
+   1. MARGIN - space OUTSIDE the border (creates distance from other elements)
+   2. BORDER - the edge/outline
+   3. PADDING - space INSIDE between border and content
+   4. CONTENT - the actual stuff inside (text, images, etc) */
+
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;  /* space inside body */
+}
+
+.box {
+    background-color: #e0e0e0;  /* gray background */
+    padding: 20px;               /* space INSIDE the box (between border and text) */
+    width: 200px;                /* box width */
+    border-left: 3px solid #333; /* thick left border for accent */
+}
+
+/* SMALL MARGINS - close to other elements */
+.small-margin {
+    /* margin: 5px; means 5px margin on ALL SIDES */
+    margin: 5px;
+    
+    /* ALTERNATIVE: Specify each side separately */
+    /* margin-top: 5px;    - space above */
+    /* margin-right: 5px;  - space to right */
+    /* margin-bottom: 5px; - space below */
+    /* margin-left: 5px;   - space to left */
+}
+
+/* MEDIUM MARGINS */
+.medium-margin {
+    margin: 20px;  /* 20px on all sides */
+}
+
+/* LARGE MARGINS - lots of space from other elements */
+.large-margin {
+    margin: 40px;  /* 40px on all sides */
+}
+
+/* CUSTOM MARGINS - different on each side */
+.custom-margin {
+    /* Format: margin: TOP RIGHT BOTTOM LEFT; */
+    /* OR:      margin: top/bottom  left/right; */
+    margin: 10px 20px 30px 40px;  /* 10 top, 20 right, 30 bottom, 40 left */
+}
+
+/* COMMON MARGIN SHORTCUTS: */
+/* margin: 5px;           = 5px all sides */
+/* margin: 10px 20px;     = 10px top/bottom, 20px left/right */
+/* margin: 5px 10px 15px 20px; = top right bottom left */
+/* margin: 0 auto;        = 0 margin top/bottom, auto (centers) left/right */

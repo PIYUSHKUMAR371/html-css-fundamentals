@@ -1,0 +1,78 @@
+/* ===== FLEXBOX - POWERFUL LAYOUT TOOL ===== */
+/* Flexbox makes it easy to create flexible, responsive layouts */
+/* No more confusing floats or grid tricks! */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+/* FLEX CONTAINER 1: Row Direction (side by side) */
+.flex-container {
+    /* display: flex; - ACTIVATES FLEXBOX MODE */
+    display: flex;
+    
+    /* flex-direction: row; is the DEFAULT (left to right) */
+    /* flex-direction can be: row, column, row-reverse, column-reverse */
+    
+    /* gap: 10px; - space BETWEEN items (very useful!) */
+    gap: 10px;
+    
+    margin: 20px 0;
+}
+
+/* FLEX CONTAINER 2: Column Direction (top to bottom) */
+.flex-container-column {
+    display: flex;
+    
+    /* flex-direction: column; stacks items vertically (top to bottom) */
+    flex-direction: column;
+    
+    gap: 10px;
+    margin: 20px 0;
+    max-width: 300px;
+}
+
+/* FLEX ITEMS: Individual boxes inside flex container */
+.flex-item {
+    /* flex: 1; means each item takes equal space (grows equally) */
+    /* If you put flex: 2; on one item, it takes twice the space */
+    flex: 1;
+    
+    padding: 20px;          /* space INSIDE the box */
+    background-color: #4CAF50;  /* green background */
+    color: white;           /* white text */
+    text-align: center;     /* center text horizontally */
+    border-radius: 5px;     /* rounded corners */
+    min-height: 100px;      /* minimum height */
+    
+    /* Center content both horizontally AND vertically */
+    display: flex;              /* make THIS item a flex container too! */
+    align-items: center;        /* center vertically (up-down) */
+    justify-content: center;    /* center horizontally (left-right) */
+}
+
+/* Change color of 2nd flexitem (item number 2) */
+/* :nth-child(2) selects the 2nd child element */
+.flex-item:nth-child(2) {
+    background-color: #2196F3;  /* blue */
+}
+
+/* Change color of 3rd flex item */
+.flex-item:nth-child(3) {
+    background-color: #FF9800;  /* orange */
+}
+
+/* FLEXBOX QUICK REFERENCE:
+   justify-content: Aligns items LEFT-RIGHT (main axis)
+     - flex-start (left), flex-end (right), center, space-between, space-around
+   
+   align-items: Aligns items UP-DOWN (cross axis)
+     - flex-start (top), flex-end (bottom), center, stretch
+   
+   flex-wrap: Whether items wrap to new line
+     - nowrap (default), wrap, wrap-reverse
+   
+   flex: How much space each item takes
+     - flex: 1 (equal space), flex: 2 (double space), etc
+*/

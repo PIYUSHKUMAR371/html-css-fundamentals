@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Forms 📝</h1>
+    <p>Forms allow users to send data to your website</p>
+    
+    <!-- <form> is a container for all form inputs -->
+    <form>
+        
+        <!-- FORM FIELD 1: Text Input -->
+        <!-- <label> describes what the input is for - connects to <input> via 'for' attribute -->
+        <label for="name">Name:</label>
+        
+        <!-- <input type="text"> creates a single-line text box -->
+        <!-- id="name" connects to the label above -->
+        <!-- name="name" is the field name when form is submitted -->
+        <!-- required means user MUST fill this field -->
+        <input type="text" id="name" name="name" required>
+        
+        <!-- FORM FIELD 2: Email Input -->
+        <label for="email">Email:</label>
+        <!-- type="email" automatically validates that input looks like an email -->
+        <input type="email" id="email" name="email" required>
+        
+        <!-- FORM FIELD 3: Text Area (multi-line) -->
+        <label for="message">Message:</label>
+        <!-- <textarea> creates a bigger text area for longer messages -->
+        <!-- rows="5" means it shows 5 lines tall -->
+        <textarea id="message" name="message" rows="5"></textarea>
+        
+        <!-- SUBMIT BUTTON -->
+        <!-- type="submit" sends the form data when clicked -->
+        <button type="submit">Submit</button>
+        
+    </form>
+    
+    <!-- TRY ADDING: -->
+    <!-- - <input type="password"> for passwords -->
+    <!-- - <input type="checkbox"> for checkboxes (Yes/No) -->
+    <!-- - <select><option></option></select> for dropdown menus -->
+    <!-- - <input type="radio"> for choosing one from multiple options -->
+    
+</body>
+</html>

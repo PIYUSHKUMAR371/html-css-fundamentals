@@ -1,0 +1,30 @@
+/* Combinators - Styles */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+/* Descendant combinator (space) */
+.parent p {
+    color: blue;
+}
+
+/* Child combinator (>) */
+.parent > p {
+    background-color: #ccffcc;
+    padding: 10px;
+    margin: 5px 0;
+}
+
+/* Adjacent sibling combinator (+) */
+.parent + p {
+    color: red;
+    font-weight: bold;
+}
+
+/* General sibling combinator (~) */
+.parent ~ p {
+    border-left: 3px solid green;
+    padding-left: 10px;
+}

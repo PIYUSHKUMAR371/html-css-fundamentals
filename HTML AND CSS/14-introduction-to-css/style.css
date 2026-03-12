@@ -1,0 +1,28 @@
+/* Introduction to CSS - Styles */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f0f0f0;
+}
+
+h1 {
+    color: #333;
+    border-bottom: 3px solid #4CAF50;
+    padding-bottom: 10px;
+}
+
+.intro {
+    font-size: 18px;
+    color: #4CAF50;
+    font-weight: bold;
+}
+
+p {
+    line-height: 1.6;
+}
+
+ol {
+    margin: 20px 0;
+    padding-left: 30px;
+}
